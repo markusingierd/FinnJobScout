@@ -9,6 +9,18 @@ Denne skillen er spesialdesignet for å skrive naturlige, engasjerende og alders
 
 ---
 
+## 🛑 STRENGE REGLER FOR GIT & VERSJONSHÅNDTERING
+
+1. **INGEN AUTOMATISK GIT PUSH:**
+   - Agenten skal **ALDRI** automatisk kjøre `git push` eller oppdatere fjernstyrt Git-repository.
+   - Agenten skal alltid vente til Markus **eksplisitt ber om** at endringer skal committes og/eller pushes.
+
+2. **STRUKTURERT VERSJONSHÅNDTERING & GIT TAGS:**
+   - Hjelp Markus med ryddig versjonshåndtering ved å bruke og foreslå **semantiske Git-tags** (f.eks. `v1.0.0`, `v1.1.0`) når nye funksjoner eller større milepæler ferdigstilles.
+   - Tags gjør det enkelt for Markus å spore stabile utgivelser og hoppe i versjonshistorikken.
+
+---
+
 ## 🛑 STRENGE SPRÅKREGLER (Korte setninger & Ung tone)
 
 ### 1. Korte, poengterte setninger (Unngå unødvendig lange «haler»)
