@@ -8,14 +8,18 @@ env/
 venv/
 .venv/
 
-# Nested folders & heavy archives
-Mine prosjekter/
-finn-job-scout/
-
-# Binary / Generated exports
+# Personlig og konfidensiell informasjon (Skjules fra Git/GitHub)
+soknadsbrev/
+Historiske søknader/
+cvMarkus.md
+markus_master_profil.md
 *.pdf
 *.docx
 *.html
+
+# Nested folders & heavy archives
+Mine prosjekter/
+finn-job-scout/
 
 # macOS
 .DS_Store
