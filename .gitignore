@@ -1,10 +1,26 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
 
-# Local environment & databases
-*.log
+# Nested folders & heavy archives
+Mine prosjekter/
+finn-job-scout/
+
+# Binary / Generated exports
+*.pdf
+*.docx
+*.html
+
+# macOS
 .DS_Store
-.vscode/
+
+# IDE & Gemini
+.gemini/
 .idea/
+.vscode/
