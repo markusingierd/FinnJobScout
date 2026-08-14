@@ -11,8 +11,11 @@ venv/
 # Personlig og konfidensiell informasjon (Skjules fra Git/GitHub)
 soknadsbrev/
 Historiske søknader/
+arkiv/
 cvMarkus.md
 markus_master_profil.md
+user_profile/*.md
+!user_profile/master_profile.template.md
 *.pdf
 *.docx
 *.html

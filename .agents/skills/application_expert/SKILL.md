@@ -11,9 +11,9 @@ Denne skillen er spesialdesignet for å skrive naturlige, engasjerende og alders
 
 ## 🛑 STRENGE REGLER FOR GIT & VERSJONSHÅNDTERING
 
-1. **INGEN AUTOMATISK GIT PUSH:**
-   - Agenten skal **ALDRI** automatisk kjøre `git push` eller oppdatere fjernstyrt Git-repository.
-   - Agenten skal alltid vente til Markus **eksplisitt ber om** at endringer skal committes og/eller pushes.
+1. **TRIGGER FOR GIT PUSH ("push til git"):**
+   - Agenten skal **KUN** pushe endringer til Git når Markus eksplisitt skriver **«push til git»**, **«push endringer»**, **«oppdater git»** eller tilsvarende fraser i den duren.
+   - Uten denne eksplisitte avtrekkeren skal alle filer, skripter og endringer forbli 100 % lokale på Markus sin maskin.
 
 2. **STRUKTURERT VERSJONSHÅNDTERING & GIT TAGS:**
    - Hjelp Markus med ryddig versjonshåndtering ved å bruke og foreslå **semantiske Git-tags** (f.eks. `v1.0.0`, `v1.1.0`) når nye funksjoner eller større milepæler ferdigstilles.

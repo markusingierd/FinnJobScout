@@ -175,6 +175,27 @@ def check_applied_status(db):
         else:
             job["application_status"] = "not_applied"
 
+def get_user_info():
+    profile_paths = [
+        BASE_DIR / "markus_master_profil.md",
+        BASE_DIR / "user_profile" / "master_profile.md",
+        BASE_DIR / "user_profile" / "master_profile.template.md"
+    ]
+    for path in profile_paths:
+        if path.exists():
+            try:
+                content = path.read_text(encoding="utf-8")
+                for line in content.splitlines():
+                    if "navn:" in line.lower() and "[ditt navn" not in line.lower():
+                        parts = line.split(":", 1)
+                        if len(parts) > 1 and parts[1].strip():
+                            return parts[1].strip().replace("**", "").replace("*", "")
+                    elif "markus hysvær ingierd" in line.lower():
+                        return "Markus Hysvær Ingierd"
+            except Exception:
+                pass
+    return "Jobbsøker"
+
 def generate_markdown(db):
     unapplied_jobs = []
     applied_jobs = []
@@ -193,9 +214,10 @@ def generate_markdown(db):
     applied_jobs.sort(key=lambda x: x.get("match_percentage", 0), reverse=True)
 
     now_str = datetime.now().strftime("%d.%m.%Y kl. %H:%M")
+    user_name = get_user_info()
 
     md = []
-    md.append("# 🎯 Relevante Stillinger for Markus Hysvær Ingierd")
+    md.append(f"# 🎯 Relevante Stillinger for {user_name}")
     md.append(f"\n*Sist oppdatert: {now_str}*\n")
     md.append("Dette dokumentet oppdateres automatisk av `job_analyst.py`. Stillinger du allerede har skrevet søknad til blir automatisk merket som ✅ Søkt for å unngå dubletter.\n")
     

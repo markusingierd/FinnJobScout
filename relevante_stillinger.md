@@ -1,6 +1,6 @@
 # 🎯 Relevante Stillinger for Markus Hysvær Ingierd
 
-*Sist oppdatert: 13.08.2026 kl. 18:32*
+*Sist oppdatert: 14.08.2026 kl. 13:22*
 
 Dette dokumentet oppdateres automatisk av `job_analyst.py`. Stillinger du allerede har skrevet søknad til blir automatisk merket som ✅ Søkt for å unngå dubletter.
 
@@ -10,9 +10,7 @@ Dette dokumentet oppdateres automatisk av `job_analyst.py`. Stillinger du allere
 
 | Match % | Stillingstittel | Bedrift | Sted | Frist | Lenke |
 | :---: | :--- | :--- | :--- | :---: | :---: |
-| **100%** | Backend-utvikler | Fremtind | Oslo | 2026-08-25 | [Åpne på FINN](https://www.finn.no/job/ad/472006049) |
 | **100%** | Fullstack-utvikler .net | SpareBank 1 Utvikling | Oslo | 2026-08-09 | [Åpne på FINN](https://www.finn.no/job/ad/468513961) |
-| **100%** | AI-utvikler | Farmasiet | Oslo | 2026-08-31 | [Åpne på FINN](https://www.finn.no/job/ad/469263109) |
 | **91%** | Power Platform-utvikler | Oslo kommune | Oslo | 2026-08-10 | [Åpne på FINN](https://www.finn.no/job/ad/470358060) |
 | **66%** | Power Plattform utvikler | Statnett | Oslo | 2026-08-24 | [Åpne på FINN](https://www.finn.no/job/ad/470477012) |
 | **62%** | Utvikler | Accenture Norge | Oslo | Snarest | [Åpne på FINN](https://www.finn.no/job/ad/471886569) |
@@ -91,9 +89,11 @@ Dette dokumentet oppdateres automatisk av `job_analyst.py`. Stillinger du allere
 | :---: | :--- | :--- | :---: | :---: | :---: |
 | **100%** | Softwareutvikler | Autopay Technologies | Snarest | [Soknad_Autopay_Markus.md](soknadsbrev/Soknad_Autopay_Markus.md) | [FINN](https://www.finn.no/job/ad/468136187) |
 | **100%** | Utvikler | Etterretningstjenesten | 2026-08-09 | [Soknad_Etterretningstjenesten_Markus.md](soknadsbrev/Soknad_Etterretningstjenesten_Markus.md) | [FINN](https://www.finn.no/job/ad/468414434) |
+| **100%** | Backend-utvikler | Fremtind | 2026-08-25 | [Soknad_Fremtind_Markus.md](soknadsbrev/Soknad_Fremtind_Markus.md) | [FINN](https://www.finn.no/job/ad/472006049) |
 | **100%** | Utvikler | Gjensidige | 2026-08-23 | [Soknad_Gjensidige_Markus.md](soknadsbrev/Soknad_Gjensidige_Markus.md) | [FINN](https://www.finn.no/job/ad/471840832) |
 | **100%** | Fullstackutvikler | Skatteetaten | 2026-08-20 | [Soknad_Skatteetaten_Markus.md](soknadsbrev/Soknad_Skatteetaten_Markus.md) | [FINN](https://www.finn.no/job/ad/468403327) |
 | **100%** | Utviklere - digitalisering og forsyningssikkerhet | Direktoratet for medisinske produkter | 2026-08-19 | [Manuelt søkt tidligere (Før agenten)](Manuelt søkt tidligere (Før agenten)) | [FINN](https://www.finn.no/job/ad/469347725) |
+| **100%** | AI-utvikler | Farmasiet | 2026-08-31 | [Soknad_Farmasiet_Markus.md](soknadsbrev/Soknad_Farmasiet_Markus.md) | [FINN](https://www.finn.no/job/ad/469263109) |
 | **71%** | Utvikler | Skatteetaten | 2026-08-16 | [Soknad_Skatteetaten_Markus.md](soknadsbrev/Soknad_Skatteetaten_Markus.md) | [FINN](https://www.finn.no/job/ad/468532373) |
 | **66%** | Data engineer | Etterretningstjenesten | 2026-08-16 | [Soknad_Etterretningstjenesten_Markus.md](soknadsbrev/Soknad_Etterretningstjenesten_Markus.md) | [FINN](https://www.finn.no/job/ad/469070200) |
 | **60%** | Plattformingeniør | Etterretningstjenesten | 2026-08-09 | [Soknad_Etterretningstjenesten_Markus.md](soknadsbrev/Soknad_Etterretningstjenesten_Markus.md) | [FINN](https://www.finn.no/job/ad/469751979) |
@@ -104,22 +104,10 @@ Dette dokumentet oppdateres automatisk av `job_analyst.py`. Stillinger du allere
 
 ## 🔍 Detaljert Match-Analyse for Nye Stillinger
 
-### [Backend-utvikler](https://www.finn.no/job/ad/472006049) - Fremtind (100% Match)
-* **Sted:** Oslo | **Frist:** 2026-08-25 | **Erfaringskrav:** 0-2 år
-* **Analyse:** Matchende nøkkelord: Kotlin, Python, Ai, Ki, Sql
-* **Vipps-Krok Forslag:** Bileier/Forsikringskunde: Koble egen erfaring med bil/reise/innbo til teamets ansvar for næringslivskunder og hele kundereisen. (Fra FINN-annonsen: tverrfaglig samarbeid med UX, analytikere og produkteiere)
-* **Merk:** Ingen tunge erfaringskrav identifisert i beskrivelsen.
-
 ### [Fullstack-utvikler .net](https://www.finn.no/job/ad/468513961) - SpareBank 1 Utvikling (100% Match)
 * **Sted:** Oslo | **Frist:** 2026-08-09 | **Erfaringskrav:** 2 år
 * **Analyse:** Matchende nøkkelord: React, Typescript, Ki, Fullstack, Frontend
 * **Vipps-Krok Forslag:** Bileier/Forsikringskunde: Koble egen erfaring med bil/reise/innbo til teamets ansvar for næringslivskunder og hele kundereisen. (Fra FINN-annonsen: de digitale salgsløsningene og hele kundereisen, tverrfaglig samarbeid med UX, analytikere og produkteiere)
-* **Merk:** Ingen tunge erfaringskrav identifisert i beskrivelsen.
-
-### [AI-utvikler](https://www.finn.no/job/ad/469263109) - Farmasiet (100% Match)
-* **Sted:** Oslo | **Frist:** 2026-08-31 | **Erfaringskrav:** 0-2 år
-* **Analyse:** Matchende nøkkelord: Typescript, Js, Python, Ai, Ki
-* **Vipps-Krok Forslag:** Trygghet/Infrastruktur: Respekt for samfunnsoppdraget om informasjonsskjerming og nasjonal trygghet. (Fra FINN-annonsen: de digitale salgsløsningene og hele kundereisen)
 * **Merk:** Ingen tunge erfaringskrav identifisert i beskrivelsen.
 
 ### [Power Platform-utvikler](https://www.finn.no/job/ad/470358060) - Oslo kommune (91% Match)
